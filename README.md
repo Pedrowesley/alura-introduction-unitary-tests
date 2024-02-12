@@ -1,27 +1,51 @@
-# NgTest1
+# Unit Test Class Module - Alura Cursos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+This repository contains a project focused on unit testing class modules using Angular. It provides a comprehensive example of how to write and run unit tests within an Angular application.
 
-## Development server
+## Project Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To set up this project, follow these steps:
 
-## Code scaffolding
+1. Clone the repository: `git clone https://github.com/Pedrowesley/alura-introduction-unitary-tests`
+2. Navigate to the project directory: `cd alura-introduction-unitary-tests`
+3. Install dependencies: `npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Running Tests
 
-## Build
+There are several scripts included in the `package.json` file for running tests:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- To start the development server: `npm start`
+- To run all unit tests: `npm test`
+- To run unit tests in specific browsers (Chrome, Firefox): `npm run test-common`
+- For continuous integration tests (no watch mode, JUnit reporter, headless browsers): `npm run test-ci`
+- To generate coverage report (headless Chrome): `npm run test-coverage`
 
-## Running unit tests
+## Linting
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To ensure code quality, run the linter:
 
-## Running end-to-end tests
+- `npm run lint`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## End-to-End Testing
 
-## Further help
+End-to-end tests are also available:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- `npm run e2e`
+
+## Contributing
+
+If you would like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix: `git checkout -b feature/my-new-feature` or `git checkout -b fix/bug-description`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin feature/my-new-feature`
+5. Submit a pull request.
+
+## Author
+
+This project is part of the Alura Cursos coursework. For further assistance, refer to the official [Angular CLI documentation](https://angular.io/cli).
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
